@@ -5,7 +5,18 @@ body {
     
 }
 
+#p-1{
+    font-weight: bold;
+}
+
 .profile-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#info-img{
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -43,4 +54,24 @@ body {
 .chat-now{
     display: flex;
     align-items: center;
+}
+.we-design{
+    margin: 3em;
+}
+
+.one{
+    font-size: 3.5em;
+}
+.portfolio{
+    margin: 3em;
+}
+
+#section-3{
+    display: flex;
+    flex-direction: column;
+}
+.learn-more{
+    border: #fff solid 2px;
+    padding: 10px;
+    margin: 10px;
 }
